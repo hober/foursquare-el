@@ -24,20 +24,21 @@
 
 ;; Bare-bones [Foursquare][] API client library for Emacs. API methods
 ;; are all prefixed `4sq-'. No OAuth yet; I'll try adopting
-;; [psanford/emacs-oauth][] soon. Depends on `geocode.el` from
-;; [hober/geocode-el][] and on `rest-api.el` from [hober/37emacs][].
+;; [psanford/emacs-oauth][] soon.
 
-;;; History:
-;; 2009-11-16: Initial release.
-;; 2009-11-17: Clean things up a bit. Checkdoc. Remove gross `eval' hack.
-;; 2009-11-17: Adopt [hober/md-readme][] for README.md generation.
+;; Depends on `geocode.el` from [hober/geocode-el][] and on
+;; `rest-api.el` from [hober/37emacs][].
 
-;;; Links:
 ;; [Foursquare]:            http://foursquare.com/
 ;; [psanford/emacs-oauth]:  http://github.com/psanford/emacs-oauth
 ;; [hober/geocode-el]:      http://github.com/hober/geocode-el
 ;; [hober/37emacs]:         http://github.com/hober/37emacs
 ;; [hober/md-readme]:       http://github.com/hober/md-readme
+
+;;; History:
+;; 2009-11-16: Initial release.
+;; 2009-11-17: Clean things up a bit. Checkdoc. Remove gross `eval' hack.
+;; 2009-11-17: Adopt [hober/md-readme][] for README.md generation.
 
 ;;; Code:
 
